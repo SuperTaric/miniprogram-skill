@@ -1,0 +1,12 @@
+<view class="reference"></view>
+<view class="sticky-container" wx:if="{{ show }}">
+	<view class="title">sticky-title</view>
+</view>
+<view class="top-container"></view>
+<view class="main">
+	<view class="title">sticky-title</view>
+	<view class="items">
+		<view class="item" wx:for="{{30}}" wx:for-item="i" wx:key="i">item {{i}}</view>
+	</view>
+</view>
+
